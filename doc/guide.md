@@ -13,9 +13,9 @@ Lets say you have written some Perfect-Code™. Your users though wont know that
 
 Normally what arrives at the door of your Perfect-Code™ is a *compound* value. How can someone validate compound values ? 
 
-The simplest way  is to write *individual* functions that validate each part of the compound value, if we know each part is perfect then surely the compound value is also perfect. If we can provide a definition for each of the parts then we can state that they are of a **type**. 
+The simplest way  is to write *individual* functions that validate each part of the compound value, if we know each part is perfect then surely the compound value is also perfect. Also, if we can provide a definition for each of the parts then we can state that they are of a **type**. 
 
-The interesting thing is these individual validator functions can be used to ***define*** those types. Instead of stating in documentation that the input needs to be a `date` value - which is vauge, its more precise to write an actual function that acts as a decider as to what a date value actually ***means***. As in any value that passes your test function is what defines a `date` type.
+The interesting thing is these individual validator functions can be used to ***define*** those types. Instead of stating in documentation that the input needs to be a `date` value - which is vague, its more precise to write an actual function that acts as a decider as to what a date value actually ***means***. As in any value that passes your test function is what defines a `date` type.
 
 
 **A simple validator function**
@@ -167,9 +167,9 @@ isAge = (range,value) ->
 
 
 
-### **Using Validators**
+#### **Enhanced Validator Function**
 
-You will notice that the return type for our `isAge` validator functions has the following type signature `[Boolean,String]` - this is the *preferred* return type for `inspector`.
+You will notice that the return type for our `isAge` validator functions has the following type signature `[Boolean,String]` - this is the *preferred* return type for `@partially-applied/inspector`.
 
 A return type of `[Boolean,String]` allows our validator function to be more useful for message passing.
 
@@ -228,7 +228,7 @@ mS = inspector.lift lo.isString
 
 ```
 
-### **Using ```inspector```**
+### **Using ```partially-applied/inspector```**
 
 Schemas are just objects that provides struture to your input values. As your application becames larger, you will need to worry about *nested schemas*,
 `inspector`  was speficially created for dealing with *deeply* nested schemas:
@@ -294,7 +294,7 @@ person smartyPants
 ```
 
 
-The return type for inspector is inspired from the specs that exists for the [writer monad](http:google.com), notice that we actually do **not** perform any IO like logging to the console, we leave it to the callie to contexulize and print something more descriptive for the application. 
+The return type for inspector is inspired from the specs that exists for the [writer monad](http://learnyouahaskell.com/for-a-few-monads-more), notice that we actually do **not** perform any IO like logging to the console, we leave it to the callie to contexulize and print something more descriptive for the application. 
 
 The writer monad has one important disavantage when we use it in production. Use of `.concat` puts extra pressure on the garbage collector for no added benefit that comes with immutability. Its better to make sure our memory usage is constant.
 
@@ -322,7 +322,7 @@ schema =
 ![](http://imgur.com/8wxsj91.jpg)
 
 
-```
+```livescript
 
 inspector = (require 'partially-applied/inspector').default
 
