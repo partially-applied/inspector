@@ -1,0 +1,7 @@
+.git
+ae
+doc
+node_modules
+src
+.gitignore
+test.js
