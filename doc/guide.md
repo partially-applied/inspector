@@ -49,7 +49,7 @@ You will notice right away that `isAge` will not correct for all:
 
 *possible things that can be passed as an argument to a javascript function*
 
-It turns out writing a good validator function is really **hard** - [Andre Staltz has written a excellect article on this topic](http://staltz.com/is-your-javascript-function-actually-pure.html) - even for something as simple as a number. Things that we need to worry about includes. 
+It turns out writing a good validator function is really **hard** - [Andre Staltz has written an excellect article on this topic](http://staltz.com/is-your-javascript-function-actually-pure.html) - even for something as simple as a number. Things that we need to worry about includes. 
 
 - negative numbers.
 - Age needs to be whole numbers.
