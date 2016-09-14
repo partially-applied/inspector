@@ -120,7 +120,7 @@ For now it seems `parseFloat` is making reasonable assumptions for our example, 
 
 **House Cleaning**
 
-If your validator function is going to be run *many* **many** times, a simple optimization win would be to move all your long debug messages to the upper scope, it helps when it comes to refracting :
+If your validator function is going to be run *many* **many** times, a simple optimization win would be to move all your long debug messages to the upper scope, it helps when it comes to code refactoring :
 
 ```livescript
 
