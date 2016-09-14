@@ -113,7 +113,7 @@ parseFloat "22.£" # 22
 
 It turns out `parseFloat` does greedy parsing and ignores once a match is made.
 
-For now it seems `parseFloat` is making resonable assumptions for our example, but what is reasonable may change based on your application.
+For now it seems `parseFloat` is making reasonable assumptions for our example, but what is reasonable may change based on your application.
 
 
 **Note:** Most programmers at this point start to make tradeoffs based on [diminishing returns](https://en.wikipedia.org/wiki/Diminishing_returns) , if the above code covers *99.99%* of possible expected inputs for your application, it might just be fine to not take into account the *0.01%* cases.
