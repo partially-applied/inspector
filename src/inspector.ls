@@ -8,14 +8,12 @@ o = 'object'
 objectError = "Not an Object" 
 
 
-switched-off = (schema,user,option) ->
+
+main = (schema,user,option) ->
 
 	switch option # Just do not run
 	| 2 => return unit
 	| 3 => return true
-
-
-main = (schema,user,option) ->
 
 
 	output = undefined
