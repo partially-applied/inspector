@@ -60,9 +60,9 @@ Features
 
 Docs
 
-- I have written a [short post](/doc/guide.md) that details the context under which `@partially-applied/inspector` is useful. 
+- I have written a [short post](https://github.com/partially-applied/inspector/blob/master/doc/guide.md) that details the context under which `@partially-applied/inspector` is useful. 
 
-- The [API guide](/doc/api.md) on the otherhand is for quick referencing purpose.
+- The [API guide](https://github.com/partially-applied/inspector/blob/master/doc/api.md) on the otherhand is for quick referencing purpose.
 
 
 

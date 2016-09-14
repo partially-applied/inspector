@@ -1,6 +1,6 @@
 {
   "name": "@partially-applied/inspector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fast schema validator for nested json",
   "main": "inspector.js",
   "dependencies": {},
