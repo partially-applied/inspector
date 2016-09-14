@@ -169,7 +169,7 @@ isAge = (range,value) ->
 
 #### **Enhanced Validator Function**
 
-You will notice that the return type for our `isAge` validator functions has the following type signature `[Boolean,String]` - this is the *preferred* return type for `@partially-applied/inspector`.
+You will notice that the return type for our `isAge` validator function has the following type signature `[Boolean,String]` - this is the *preferred* return type for `@partially-applied/inspector`.
 
 A return type of `[Boolean,String]` allows our validator function to be more useful for message passing.
 
