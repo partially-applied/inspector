@@ -35,9 +35,8 @@ testInput1 = # Correct Input
    d:'world'
 
 
-tester = inspector(schema)
 
-console.log tester testInput1 # [true]
+console.log inspector(schema,testInput1)  # [true]
 
 testInput2 = # Incorrect Input
  a:"hello"
@@ -46,7 +45,7 @@ testInput2 = # Incorrect Input
    d:1
 
 
-console.log(tester(testInput2)) # [false,['b','d']]
+console.log inspector(schema,testInput2) # [false,['b','d']]
 
 ```
 
