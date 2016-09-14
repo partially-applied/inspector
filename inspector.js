@@ -1,15 +1,17 @@
-var unit, o, objectError, main, createCache, start, lift;
+var unit, o, objectError, switchedOff, main, createCache, start, lift;
 unit = Object.freeze([true, [], ""]);
 o = 'object';
 objectError = "Not an Object";
-main = function(schema, user, option){
-  var output, key, valSchema, valUser, innerCheck, evalVal;
+switchedOff = function(schema, user, option){
   switch (option) {
   case 2:
     return unit;
   case 3:
     return true;
   }
+};
+main = function(schema, user, option){
+  var output, key, valSchema, valUser, innerCheck, evalVal;
   output = undefined;
   for (key in schema) {
     valSchema = schema[key];
