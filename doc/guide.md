@@ -6,7 +6,7 @@
 
 Perfect-Code™ (*noun*) - Code that **you** think is perfect.
 
-Lets say you have written some Perfect-Code™, but regardless of how perfect it is, you will always be exposed to dealing with imperfect values as input.  These values need to be filtered out, repaired, or if they are imperfect beyound repair then your program might need to terminate.
+Lets say you have written some Perfect-Code™.Now, Regardless of how perfect your code is, at the bounary you will always be exposed to dealing with imperfect values as input.  These values need to be filtered out, repaired, or if they are imperfect beyound repair then your program might need to terminate.
 
 ![](http://imgur.com/hG8Wp6q.jpg)
 
