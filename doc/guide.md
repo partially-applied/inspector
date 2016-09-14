@@ -360,7 +360,7 @@ Composbility should be easy, but we will not recieve all the input due to type m
 
 This guide touches on a lot of interesting topics - types, error handling, validator. I find these topics extremely important and there is a lot that can be said on it but its mostly out of scope for this guide. `@partially-applied/inspector` is closer to a protocol then anything else.
 
-I hope you enjoyed reading this article as much as I enjoyed writing it. If there are any questions/recommendations on improvments I would be keen to dicuss it, since `github` does not have a general comment section, raising an issue would be just fine. 
+I hope you enjoyed reading this article as much as I enjoyed writing it. If there are any questions/recommendations on improvements I would be keen to dicuss it, since `github` does not have a general comment section, raising an issue would be just fine. 
 
 
 
