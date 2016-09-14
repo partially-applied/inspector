@@ -190,7 +190,7 @@ schema =
 
 inspectorDefault = inspector.default
 
-console.log inspectorDefault schema,{drink:'hello world'} # [true]
+console.log inspectorDefault schema,{drink:'hello world'} # true
 
 # so far so good - since default accepts functions in schema that return bool
 # however what happens when you want to mix validator functions with different
